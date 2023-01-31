@@ -1,11 +1,20 @@
-nav {
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-  }
-.navbar{
-    background-color: #f0f8ff;
+:root{
+    --primaryText : #555555;
 }
+a{
+    color: var(--primaryText) important!;
+}
+a:hover{
+    color: black important!;
+}
+
+
+
 .navbar-brand{
-    padding-left: 10px;
+    font-size: xx-large;
+}
+.navbar-nav{
+    margin-left: auto;
 }
 .nav-item{
     padding-left: 10px;

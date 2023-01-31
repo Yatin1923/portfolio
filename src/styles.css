@@ -1,2 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.css" 
+@import "~bootstrap/dist/css/bootstrap.css" ;
+@font-face {
+    font-family: 'Poppins';
+    src: url("src/assets/Poppins-Regular.ttf");
+  }
+
+@font-face {
+    font-family: 'Poppins-Thin';
+    src: url("src/assets/Poppins-Thin.ttf");
+  }
+
