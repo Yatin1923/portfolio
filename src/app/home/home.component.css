@@ -4,6 +4,17 @@
 
 h1{
     font-size: 54px;
+    color: #555555;
+}
+h3{
+    color: #555555;
+}
+h2{
+    color: #555555;
+}
+p{
+    font-size: 20px;
+     color: #9c9c9c;
 }
 .start{
     height: 100vh;
@@ -73,33 +84,84 @@ h1{
     
     margin-right: 20px;
     border-radius: 100%;
+    max-width: 100%;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
-.about{
-    /* height: 50vh; */
-}
 
+.vertical-padding{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
 .card{
     /* top: 50px; */
     color: #555555;
     border: none;
     border-radius: 2rem;
-    height: 300px;
-    width: 800px;
+    height: 350px;
+    width: 850px;
     box-shadow: -8px -6px 15px 0 #fff, 6px 8px 15px 0 rgb(0 0 0 / 15%);
-    padding: 30px 20px 20px 20px;
+    padding: 40px 50px;
     background-color: #f1f1f1;
-    display: inline-block;
 }
-.aboutBtn{
-    display: inline-block;
+.moreAbout{
+    position: relative;
 }
-.vertical-padding{
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+.moreAboutBtn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 15rem;
 }
-.moreAboutMe{
-    height: 50px;
-    margin-top: 100%;
+.services{
+    width: 100%;
+    height: 70vh;
+    padding-top: 100px;
+}
+.service{
+    width: 26rem;
+    height: 24rem;
+    box-shadow: 7px 7px 15px 0 rgb(0 0 0 / 12%), -7px -7px 15px 0 #fff;
 
+    border-radius: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.serviceContent{
+    margin: 110px 30px;
+}
+.portfolio{
+    box-shadow: 7px 7px 15px 0 rgb(0 0 0 / 12%), -7px -7px 15px 0 #fff;
+    border-radius: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.portfolioContent{
+    padding: 30px ;
+}
+
+.leftContent{
+    position: relative;
+}
+
+.btnAlign{
+    position: absolute;
+    bottom: 0;
+}
+
+.portfolioImg{
+    border-radius: 30px;
+    width: 100%;
+}
+
+.widthAdjust{
+    width: 500px;
+}
+.portfolios{
+    padding-top: 200px;
+    padding-bottom: 50px;
 }
