@@ -9,7 +9,9 @@
     font-family: 'Poppins-Thin';
     src: url("src/assets/Poppins-Thin.ttf");
   }
-
+html{
+  scroll-behavior: auto !important;
+}
   :root{
     --primaryText: #555555;
     --secondaryText: #9c9c9c;

@@ -10,6 +10,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import { EmailComponent } from './shared/email/email.component';
 import { GetInTouchComponent } from './shared/get-in-touch/get-in-touch.component';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     EmailComponent,
     GetInTouchComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

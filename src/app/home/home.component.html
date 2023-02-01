@@ -40,7 +40,7 @@
             </div>
             
             <div class="moreAbout col-lg">
-                <button class="btn btn-lg moreAboutBtn"><i class="fa fa-arrow-right"></i> More about me</button>
+                <button class="btn btn-lg moreAboutBtn" [routerLink] = "['about']"><i class="fa fa-arrow-right"></i> More about me</button>
             </div>
 
         </div>
@@ -181,51 +181,6 @@
     </section>
 
     <!-- Email -->
-    <section class="email">
-        <div class="emailContent">
-            <div class="emailText container">
-                <h1><b>Want to create something awesome?</b></h1><br><h1><b>Drop me an email.</b></h1><br>
-                <button class="btn btn-lg" style="width: 250px;"><i class="fa fa-envelope"></i> hello@nancy.com </button>
-            </div>
-        </div>
-    </section>
+  <app-email></app-email>
 </div>
-<footer>
-    <div class="footer">
-        <div class="container" style="height: 100%;">
-            <div class="footerContent">
-                <div class="row">
-                    <div class="col-md-5 footerText">
-                        <h2><b>Nancy.</b></h2>
-                        <p>Be original with Nancy, a premium portfolio template created for creative professionals. 
-                            Made with the Neumorphism design style, which makes the website memorable, with a clean and minimal visual.</p>
-                            <br>
-                            <div class="handles">
-                                <a class="btn  handler" href="https://twitter.com/"><i class='fa fa-twitter'></i></a>
-                                <a class="btn  handler" href="https://in.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                                <a class="btn  handler" href="https://www.behance.net/"><i class="fa fa-behance" ></i></a>
-                                <a class="btn  handler" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                            </div>
-                    </div>
-                    <div class="col-md-5 footerText">
-                        <h3 style="font-size: 20px; color: #9c9c9c;"><b>Subscribe to my newsletter</b></h3>
-                        <form action="">
-                            <div class="form-group">
-                                <input class="form-control customInput" type="text" placeholder="Email Address">
-                                <br>
-                                <button class="btn btn-lg">Submit</button>
-                            </div>
-                        </form>
-                    </div>
-
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="footer-bottom-content">
-                    <div style="font-size: small"><span style="color: #9c9c9c;"> © Nancy — Powered by</span> Yatin chokshi</div>   
-                </div>
-                <div style="font-size: small"><span style="color: #9c9c9c;"> Created by</span> Yatin chokshi</div>
-            </div>
-        </div>
-    </div>
-</footer>
+<app-footer></app-footer>
