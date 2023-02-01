@@ -10,3 +10,51 @@
     src: url("src/assets/Poppins-Thin.ttf");
   }
 
+  :root{
+    --primaryText: #555555;
+    --secondaryText: #9c9c9c;
+    --cardColour: #f1f1f1;
+    --btnColour: #717171;
+}
+
+h1{
+  font-size: 54px;
+  color: var(--primaryText);
+}
+b{
+  color: var(--primaryText);
+}
+h3{
+  color: var(--primaryText);
+}
+h2{
+  color: var(--primaryText);
+}
+p{
+  font-size: 20px;
+   color: var(--secondaryText);
+}
+
+.max-width-large{
+  width: 100%;
+  max-width: 34rem;
+}
+
+.btn{
+  box-shadow: 4px 6px 10px 0px rgb(0 0 0 / 15%), -8px -6px 15px 0 #fff;
+  color: #717171;
+  border: none !important;
+  border-radius: 18px;
+}
+.btn:hover{
+  box-shadow: 4px 6px 12px 4px rgb(0 0 0 / 15%), -8px -6px 15px 0 #fff;
+}
+.btn-lg{
+  height: 70px;
+  width: 200px;
+}
+
+.max-width-small{
+  width: 100%;
+  max-width: 26rem;
+}

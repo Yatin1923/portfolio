@@ -1,0 +1,109 @@
+.header{
+    /* height: 88%; */
+}
+.align{
+    margin-top: 30%;
+}
+.shape-image-header {
+    margin-top: 10%;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 100%;
+    background-color: var(--cardColour);
+    box-shadow: 7px 7px 15px 0 rgb(0 0 0 / 12%), -7px -7px 15px 0 #fff;
+    align-content: center;
+    padding: 35px;
+}
+.imgPos{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    background-image: url("src/assets/nancy-profile_2.jpeg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+}
+
+.processes{
+    margin-top: 150px;
+}
+.process{
+    width: 26rem;
+    height: 20rem;
+    box-shadow: 7px 7px 15px 0 rgb(0 0 0 / 12%), -7px -7px 15px 0 #fff;
+
+    border-radius: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+
+.processContent{
+    margin: 30px 40px;
+}
+.numbers{
+    display: inline-block;
+    color: #9c9c9c; 
+    font-size: 36px;
+    font-weight: 600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: -8px -6px 15px #fff, 7px 7px 15px rgb(0 0 0 / 15%);
+    margin-bottom: 15px;
+}
+.processText{
+    font-size: large;
+}
+.expierence{
+    width: 100%;
+}
+.card{
+    border: none;
+    border-radius: 2rem;
+    height: 12rem;
+    box-shadow: -8px -6px 15px 0 #fff, 6px 8px 15px 0 rgb(0 0 0 / 15%);
+    padding: 40px 50px;
+    background-color: var(--cardColour);
+    margin-bottom: 40px;
+}
+.achievements{
+    margin-top: 100px;
+}
+.achievement{
+    
+    border: none;
+    border-radius: 2rem;
+    height: 12rem;
+    width: 18rem;
+    box-shadow: -8px -6px 15px 0 #fff, 6px 8px 15px 0 rgb(0 0 0 / 15%);
+    padding: 40px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.achievement_f{
+    border: none;
+    border-radius: 2rem;
+    height: 12rem;
+    width: 18rem;
+    box-shadow: -8px -6px 15px 0 #fff, 6px 8px 15px 0 rgb(0 0 0 / 15%);
+    padding: 40px 40px;
+    margin-right: auto;
+}
+.achievement_l{
+    border: none;
+    border-radius: 2rem;
+    height: 12rem;
+    width: 18rem;
+    box-shadow: -8px -6px 15px 0 #fff, 6px 8px 15px 0 rgb(0 0 0 / 15%);
+    padding: 40px 40px;
+    margin-left: auto;
+}
+.achievementNumber{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}

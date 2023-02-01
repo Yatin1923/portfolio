@@ -5,9 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
-import { WorkComponent } from './work/work.component';
 import { AboutComponent } from './about/about.component';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { EmailComponent } from './shared/email/email.component';
+import { GetInTouchComponent } from './shared/get-in-touch/get-in-touch.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -15,8 +17,10 @@ import {MatGridListModule} from '@angular/material/grid-list';
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    WorkComponent,
-    AboutComponent
+    AboutComponent,
+    EmailComponent,
+    GetInTouchComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
