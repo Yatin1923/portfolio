@@ -1,0 +1,56 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--secondaryText);
+    opacity: 1; /* Firefox */
+  }
+
+.heading{
+    margin-top: 100px;
+}
+.padding{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.center{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card{
+    border: none;
+    border-radius: 2rem;
+    height: 42rem;
+    box-shadow: -8px -6px 15px 0 #fff, 6px 8px 15px 0 rgb(0 0 0 / 15%);
+    padding: 40px 50px;
+    background-color: var(--cardColour);
+    margin-bottom: 40px;
+}
+.input{
+    height: 4rem;
+    border-radius: 20px;
+    border: none;
+    padding-left: 40px ;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: var(--secondaryText);
+    box-shadow: inset -8px -6px 15px 0 #fff, inset 6px 8px 15px 0 rgb(0 0 0 / 15%);
+    margin-bottom: 40px;
+}
+.textarea{
+    min-height: 4rem;
+    border-radius: 20px;
+    border: none;
+    padding-top: 20px;
+    padding-left: 40px ;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: var(--secondaryText);
+    box-shadow: inset -8px -6px 15px 0 #fff, inset 6px 8px 15px 0 rgb(0 0 0 / 15%);
+    margin-bottom: 40px;
+}
+.sendButton{
+   text-align: center; 
+}
+.btn{
+    width: 6rem;
+    height: 4rem;
+}

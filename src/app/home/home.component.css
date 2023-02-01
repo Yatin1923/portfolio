@@ -1,33 +1,7 @@
-:root{
-    --primaryText: #555555;
-}
 
-h1{
-    font-size: 54px;
-    color: #555555;
-}
-h3{
-    color: #555555;
-}
-h2{
-    color: #555555;
-}
-p{
-    font-size: 20px;
-     color: #9c9c9c;
-}
 .start{
     height: 100vh;
-    color: #555555;
-}
-.max-width-large{
-    width: 100%;
-    max-width: 34rem;
-}
-
-.max-width-small{
-    width: 100%;
-    max-width: 24rem;
+    color: var(--primaryText);
 }
 
 .align{
@@ -37,7 +11,7 @@ p{
     width: 28vw;
     height: 85vh;
     border-radius: 25vw;
-    background-color: #f1f1f1;
+    background-color: var(--cardColour);
     box-shadow: 7px 7px 15px 0 rgb(0 0 0 / 12%), -7px -7px 15px 0 #fff;
     transform: rotate(25deg);
     align-content: center;
@@ -60,13 +34,10 @@ p{
     background-repeat: no-repeat;
 
 }
-.getInTouch{
-    display: inline; 
-    margin-right: 20px;
-}
+
 .btn{
     box-shadow: 4px 6px 10px 0px rgb(0 0 0 / 15%), -8px -6px 15px 0 #fff;
-    color: #717171;
+    color: var(--btnColour);
     border: none !important;
     border-radius: 18px;
 }
@@ -78,34 +49,18 @@ p{
     width: 200px;
 }
 
-.handles{
-    display: inline;
-}
-.handler{
-    
-    margin-right: 20px;
-    border-radius: 100%;
-    max-width: 100%;
-    align-items: center;
-    width: 2.5rem;
-    height: 2.5rem;
-}
-
-
 .vertical-padding{
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
 .card{
-    /* top: 50px; */
-    color: #555555;
     border: none;
     border-radius: 2rem;
     height: 350px;
     width: 850px;
     box-shadow: -8px -6px 15px 0 #fff, 6px 8px 15px 0 rgb(0 0 0 / 15%);
     padding: 40px 50px;
-    background-color: #f1f1f1;
+    background-color: var(--cardColour);
 }
 .moreAbout{
     position: relative;
