@@ -8,7 +8,9 @@ a:hover{
     color: black important!;
 }
 
-
+.navbar-collapse{
+    transition: ease 1s;
+}
 
 .navbar-brand{
     font-size: xx-large;
@@ -19,4 +21,26 @@ a:hover{
 .nav-item{
     padding-left: 10px;
     
+}
+.icon-bar {
+    width: 22px;
+    transition: all 0.2s;
+    color: black;
+    height: 2px;
+    background-color: black;
+}
+@keyframes fadeIn {
+    0% {position: static; margin-top:-100px ; opacity: 0; }
+    100% {position: static; margin-top:0px; opacity: 1; }
+  }
+  @keyframes fadeOut {
+    0% {position: static; margin-top:0px; opacity: 1; }
+    100% {position: static; margin-top:-100px ; opacity: 0; }
+  }
+.navbar-collapse{
+    animation: fadeIn 0.5s;
+    
+}
+.navbar-collapse.collapse{
+    animation: fadeOut 0.5s;
 }

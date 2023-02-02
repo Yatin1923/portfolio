@@ -1,15 +1,15 @@
 <div class="container">
 
-  <nav class="navbar navbar-expand-lg navbar-transparent">
+  <nav class="navbar navbar-expand-lg navbar-transparent" role="navigation">
     <button  class="navbar-brand" style="color: var(--primaryText); border: none; background-color: transparent;" [routerLink]="['/']"><b>Nancy.</b></button>
   <button (click)="toggleCollapsed()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-    <div id="navbarNavAltMarkup" [ngClass]="{'collapse': collapsed, 'navbar-collapse': true}">
-      <div class="navbar-nav">
-        <button class="nav-item nav-link" style="border: none;background-color: transparent;" [routerLink]="['/']">Home</button>
-        <button class="nav-item nav-link" style="border: none;background-color: transparent;" [routerLink]="['/about']" >About</button>
-        <button class="nav-item nav-link"style="border: none;background-color: transparent;" [routerLink]="['/contact']">Contact</button>
+    <div   id="navbarNavAltMarkup" [ngClass]="{'collapse': collapsed, 'navbar-collapse': true}">
+      <div  class="navbar-nav">
+        <button data-toggle="collapse" class="nav-item nav-link" style="border: none;background-color: transparent;" [routerLink]="['/']">Home</button>
+        <button  data-toggle="collapse" class="nav-item nav-link" style="border: none;background-color: transparent;" [routerLink]="['/about']" >About</button>
+        <button data-toggle="collapse" class="nav-item nav-link"style="border: none;background-color: transparent;" [routerLink]="['/contact']">Contact</button>
       </div>
     </div>
   </nav>

@@ -107,3 +107,58 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 500;
 }
+
+@media screen and (max-width:1400px) {
+    .shape-image-header {
+        width: 34rem;
+        height: 34rem;
+    }
+    .achievement{
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .shape-image-header {
+        width: 29rem;
+        height: 29rem;
+    }
+    .achievement{
+        width: 13.5rem;
+    }
+}
+@media screen and (max-width:992px) {
+    .align {
+        margin-top: 30px;
+        display: flex;
+        text-align: center;
+        /* justify-content: center; */
+        flex-direction: column;
+        align-items: center;
+    }
+    .shape-image-header {
+        width: 29rem;
+        margin-left: auto;
+        margin-right: auto;
+        height: 29rem
+    }
+    h1{
+        text-align: center;
+    }
+    .achievement{
+        width: 20rem;
+        margin-bottom: 25px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    p{
+        font-size: 15px;
+    }
+    .card{
+        padding: 35px 44px;
+    }
+    h2{
+        font-size: 26px;
+    }
+}

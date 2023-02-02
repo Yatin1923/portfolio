@@ -19,43 +19,8 @@
     padding: 35px;
 }
 
-@media screen and (max-width:991px) {
-    .shape-image-header {
-        width: 41vw;
-        height: 63vh;
-        border-radius: 25vw;
-        background-color: var(--cardColour);
-        box-shadow: 7px 7px 15px 0 rgb(0 0 0 / 12%), -7px -7px 15px 0 #fff;
-        transform: rotate(25deg);
-        align-content: center;
-        padding: 35px;
-    }
-}
-@media screen and (max-width:1400px) {
-    .shape-image-header {
-        width: 36vw;
-        height: 85vh;
-        border-radius: 25vw;
-        background-color: var(--cardColour);
-        box-shadow: 7px 7px 15px 0 rgb(0 0 0 / 12%), -7px -7px 15px 0 #fff;
-        transform: rotate(25deg);
-        align-content: center;
-        padding: 35px;
-    }
-}
 
-@media screen and (max-width:1200px) {
-    .shape-image-header {
-        width: 38vw;
-        height: 74vh;
-        border-radius: 25vw;
-        background-color: var(--cardColour);
-        box-shadow: 7px 7px 15px 0 rgb(0 0 0 / 12%), -7px -7px 15px 0 #fff;
-        transform: rotate(25deg);
-        align-content: center;
-        padding: 35px;
-    }
-}
+
 
 .imagePos{
     width: 100%;
@@ -111,30 +76,7 @@
     justify-self: end;
     align-self: end;
 }
-@media only screen  and (max-width:768px) {
 
-    .moreAbout{
-        justify-self: start;
-        margin-top: 30px;
-    }
-    .shape-image-header {
-        width: 74vw;
-        height: 77vh;
-        border-radius: 34vw;
-        background-color: var(--cardColour);
-        box-shadow: 7px 7px 15px 0 rgb(0 0 0 / 12%), -7px -7px 15px 0 #fff;
-        transform: rotate(25deg);
-        align-content: center;
-        padding: 35px;
-    }
-    .imagePos{
-        width: 100%;
-        height: 100%;
-        border-radius: 34vw;
-        box-shadow: 7px 7px 15px 0 rgb(0 0 0 / 12%), -7px -7px 15px 0 #fff;
-        overflow: hidden;
-    }
-}
 
 .services{
     width: 100%;
@@ -162,12 +104,9 @@
 }
 
 .leftContent{
-    position: relative;
 }
 
 .btnAlign{
-    position: absolute;
-    bottom: 0;
 }
 
 .portfolioImg{
@@ -175,9 +114,7 @@
     width: 100%;
 }
 
-.widthAdjust{
-    width: 500px;
-}
+
 .portfolios{
     padding-top: 200px;
     padding-bottom: 50px;
@@ -202,3 +139,87 @@
 }
 
 
+@media screen and (max-width:1400px) {
+    .shape-image-header {
+        width: 36vw;
+        height: 85vh;
+        border-radius: 25vw;
+        background-color: var(--cardColour);
+        box-shadow: 7px 7px 15px 0 rgb(0 0 0 / 12%), -7px -7px 15px 0 #fff;
+        transform: rotate(25deg);
+        align-content: center;
+        padding: 35px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .shape-image-header {
+        width: 38vw;
+        height: 74vh;
+        border-radius: 25vw;
+        background-color: var(--cardColour);
+        box-shadow: 7px 7px 15px 0 rgb(0 0 0 / 12%), -7px -7px 15px 0 #fff;
+        transform: rotate(25deg);
+        align-content: center;
+        padding: 35px;
+    }
+}
+@media screen and (max-width:991px) {
+    .shape-image-header {
+        width: 41vw;
+        height: 63vh;
+        border-radius: 25vw;
+        background-color: var(--cardColour);
+        box-shadow: 7px 7px 15px 0 rgb(0 0 0 / 12%), -7px -7px 15px 0 #fff;
+        transform: rotate(25deg);
+        align-content: center;
+        padding: 35px;
+    }
+}
+@media only screen  and (max-width:768px) {
+
+    .moreAbout{
+        justify-self: start;
+        margin-top: 30px;
+    }
+    .shape-image-header {
+        margin-top: 10%;
+        width: 86vw;
+        height: 54vh;
+        border-radius: 34vw;
+        background-color: var(--cardColour);
+        box-shadow: 7px 7px 15px 0 rgb(0 0 0 / 12%), -7px -7px 15px 0 #fff;
+        transform: rotate(25deg);
+        align-content: center;
+        padding: 35px;
+    }
+    .imagePos{
+        width: 100%;
+        height: 100%;
+        border-radius: 34vw;
+        box-shadow: 7px 7px 15px 0 rgb(0 0 0 / 12%), -7px -7px 15px 0 #fff;
+        overflow: hidden;
+    }
+    .image {
+        transform: translate(4vh,10vh) scale(1.4) rotate(-25deg) translateY(-30px);
+    }
+    .start{
+        color: var(--primaryText);
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .portfolioCard{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .portfolioImg{
+        margin-top: 20px;
+    }
+    .leftContent{
+        margin-top: 20px;
+    }
+    .align{
+        margin-top: 10%;
+    }
+    
+}

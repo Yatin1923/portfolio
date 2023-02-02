@@ -12,15 +12,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-.customInput{
-    width: 400px;
-    height: 70px;
-    line-height: 20px;
-    border-radius: 1rem;
-    border: none;
-    box-shadow: inset 7px 7px 8px 0 rgb(0 0 0 / 12%),inset -7px -7px 7px 0 #fff;
-    background-color: transparent;
-}
+
 .footer-bottom{
     display: flex;
     border-top: 1px solid #dbdbdb;
