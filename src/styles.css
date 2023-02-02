@@ -11,6 +11,14 @@
   }
 html{
   scroll-behavior: auto !important;
+
+}
+body{
+    background-color: #f1f1f1;
+  font-family:  "Poppins";
+}
+main{
+  position: relative;
 }
   :root{
     --primaryText: #555555;

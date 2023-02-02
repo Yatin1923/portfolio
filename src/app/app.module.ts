@@ -11,6 +11,7 @@ import { EmailComponent } from './shared/email/email.component';
 import { GetInTouchComponent } from './shared/get-in-touch/get-in-touch.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { FooterComponent } from './shared/footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatGridListModule
+    MatGridListModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
