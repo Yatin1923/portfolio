@@ -9,11 +9,18 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
   collapsed = true;
-  showNav = true;
-  hideNav = true;
+  
   toggleCollapsed(): void {
     this.collapsed = !this.collapsed;
-    this.hideNav = this.collapsed;
-    this.showNav =!this.collapsed;
   }
+  
+  // toggleTheme():void{
+  //   var root = document.querySelector(':root');
+  //   var theme:CSSStyleDeclaration;
+  //   theme  = getComputedStyle(root);
+  //   document.documentElement.style.setProperty(`--cardColour`, '#555555');
+  //   document.documentElement.style.setProperty(`--secondaryText`, '#555555');
+  //   document.documentElement.style.setProperty(`--primaryText`, '#555555');
+  //   document.documentElement.style.setProperty(`--btnColour`, '#555555');
+  // }
 }

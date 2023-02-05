@@ -41,6 +41,9 @@ a:hover{
     animation: fadeIn 0.5s;
     
 }
-.navbar-collapse.collapse{
-    animation: fadeOut 0.5s;
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 0;
 }
